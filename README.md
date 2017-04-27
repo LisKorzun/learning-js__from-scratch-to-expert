@@ -1,19 +1,25 @@
 # Курс по JavaScript: от новичка до эксперта
 
+## План
+
+1. Семинар 01: **Введение. Переменные. Типы данных. Массивы.**
+1. [Семинар 02](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar02): **Git. JS: Объекты и функции.**
+1. Семинар 03:
+
 ## Полезности
 
 ### Редакторы
-:black_medium_small_square: [WebStorm](https://www.jetbrains.com/webstorm/)
-:black_medium_small_square: [Visual Studio Code](https://code.visualstudio.com/)
-:black_medium_small_square: [Sublime Text](https://www.sublimetext.com/)
-:black_medium_small_square: [Atom](https://atom.io/)
+:white_medium_small_square: [WebStorm](https://www.jetbrains.com/webstorm/)
+:white_medium_small_square: [Visual Studio Code](https://code.visualstudio.com/)
+:white_medium_small_square: [Sublime Text](https://www.sublimetext.com/)
+:white_medium_small_square: [Atom](https://atom.io/)
 
 ### Браузеры
 :white_medium_small_square: [Chrome](https://www.google.com/chrome/)
 :white_medium_small_square: [Firefox](https://www.mozilla.org/en-US/firefox/products/?v=a)
 
 ### Утилиты
-:black_medium_small_square: [Git](https://git-scm.com/downloads)
+:white_medium_small_square: [Git](https://git-scm.com/downloads)
 
 ### Книги
 
@@ -49,12 +55,6 @@
 
 `2017`
 
-
-## План
-
-1. Семинар 01: **Введение. Переменные. Типы данных. Массивы.**
-1. [Семинар 02](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar02): **Git. JS: Объекты и функции.**
-1. Семинар 03:
 
 
 
