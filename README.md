@@ -21,6 +21,11 @@
 ### Утилиты
 :white_medium_small_square: [Git](https://git-scm.com/downloads)
 
+### Видео-уроки
+:white_medium_small_square: [Основы JavaScript](https://www.youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem)
+
+:white_medium_small_square: [Введение в Javascript](https://www.youtube.com/playlist?list=PLo6puixMwuSNxJCgadaaavKqq4-ocKPrR)
+
 ### Книги
 
 ![Изучаем программирование на JavaScript](http://ozon-st.cdn.ngenix.net/multimedia/c300/1011395255.jpg)
