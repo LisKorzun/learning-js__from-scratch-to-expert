@@ -3,7 +3,7 @@
 ## План
 
 1. Семинар 01: **Введение. Переменные. Типы данных. Массивы.**
-1. [Семинар 02](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar02): **Git. JS: Объекты и функции.**
+1. [Семинар 02](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_02): **Git. JS: Объекты и функции.**
 1. Семинар 03:
 
 ## Полезности
