@@ -2,9 +2,9 @@
 
 ## План
 
-1. Семинар 01: **Введение. Переменные. Типы данных. Массивы.**
+1. [Семинар 01](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_01): **Введение. Переменные. Типы данных. Массивы.**
 1. [Семинар 02](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_02): **Git. JS: Объекты и функции.**
-1. [Семинар 03](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_03): Работа с DOM. События. Замыкания. Debugging
+1. [Семинар 03](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_03): **Работа с DOM. События. Замыкания. Debugging**
 
 ## Полезности
 
@@ -21,6 +21,13 @@
 ### Утилиты
 :white_medium_small_square: [Git](https://git-scm.com/downloads)
 :white_medium_small_square: [JSDoc](http://usejsdoc.org/)
+
+### Базы знаний
+:white_medium_small_square: [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide)
+
+:white_medium_small_square: [MSDN](https://msdn.microsoft.com/ru-ru/library/d1et7k7c(v=vs.94).aspx)
+
+:white_medium_small_square: [LearnJavaScript](https://learn.javascript.ru)
 
 ### Видео-уроки
 :white_medium_small_square: [Основы JavaScript](https://www.youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem)
