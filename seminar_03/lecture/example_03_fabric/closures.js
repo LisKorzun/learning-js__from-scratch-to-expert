@@ -9,7 +9,7 @@ window.onload = function () {
     app.addEventListener('click', function (ev) {
         if (ev.target.tagName === 'BUTTON') {
             if (ev.target.id) {
-                increase(ev.target.id);
+                increaseCounter(ev.target.id);
             }
         }
     });
@@ -33,9 +33,9 @@ var getButton = (function () {
 }());
 
 /**
- * Замыкание - Счетчик
+ * Создание счетчика
  */
-var increase = (function () {
+var createCounter = function () {
     var count = 0;
 
     return function (id) {
@@ -43,6 +43,17 @@ var increase = (function () {
         if (element) {
             element.innerHTML = ++count;
         }
+    }
+};
+
+var increaseCounter = (function () {
+    var counters = {};
+    return function increase(id) {
+        if (!counters[id]) {
+            counters[id] = {};
+            counters[id].increase = createCounter();
+        }
+        counters[id].increase(id);
     }
 }());
 

@@ -21,16 +21,16 @@ window.onload = function () {
         if (ev.target.tagName === 'BUTTON') {
             // Если это кнопка и есть id - вызываем нужный обработчик
             if (ev.target.id) {
-                increase(ev.target.id);
+                increaseCounter(ev.target.id);
             }
         }
     });
 };
 
 /**
- * Замыкание - Счетчик
+ * Создание счетчика
  */
-var increase = (function () {
+var createCounter = function () {
     var count = 0;
 
     return function (id) {
@@ -39,8 +39,18 @@ var increase = (function () {
             element.innerHTML = ++count;
         }
     }
-}());
+};
 
+var increaseCounter = (function () {
+    var counters = {};
+    return function increase(id) {
+        if (!counters[id]) {
+            counters[id] = {};
+            counters[id].increase = createCounter();
+        }
+        counters[id].increase(id);
+    }
+}());
 
 
 
