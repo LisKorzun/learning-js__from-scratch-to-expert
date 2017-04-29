@@ -9,7 +9,7 @@
 
 :three: Просмотреть 17 видео-уроков  [здесь](https://www.youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem)
 
-:four: Изучаем дополнительные ссылки к лекцииям данного семинара.
+:four: Изучаем дополнительные ссылки к лекцииям данного [семинара](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_02/README.md).
 
 
 ## ПРАКТИКУМ:
