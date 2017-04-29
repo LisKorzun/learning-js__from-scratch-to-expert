@@ -21,7 +21,7 @@ window.onload = function () {
 var getButton = (function () {
     var id = 1;
 
-    return function button(title, color) {
+    return function (title, color) {
         var buttonEl = document.createElement('button');
         buttonEl.className = 'button';
         buttonEl.className += ' ' + color;
@@ -48,7 +48,7 @@ var createCounter = function () {
 
 var increaseCounter = (function () {
     var counters = {};
-    return function increase(id) {
+    return function (id) {
         if (!counters[id]) {
             counters[id] = {};
             counters[id].increase = createCounter();
@@ -56,7 +56,3 @@ var increaseCounter = (function () {
         counters[id].increase(id);
     }
 }());
-
-
-
-

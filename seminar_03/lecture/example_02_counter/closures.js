@@ -43,7 +43,7 @@ var createCounter = function () {
 
 var increaseCounter = (function () {
     var counters = {};
-    return function increase(id) {
+    return function (id) {
         if (!counters[id]) {
             counters[id] = {};
             counters[id].increase = createCounter();
@@ -51,6 +51,3 @@ var increaseCounter = (function () {
         counters[id].increase(id);
     }
 }());
-
-
-
