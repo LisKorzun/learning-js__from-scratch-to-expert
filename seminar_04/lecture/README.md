@@ -28,6 +28,8 @@ _Выполнение JS в браузере. Работа с деревом DOM
     [Node.hasChildNodes()](https://developer.mozilla.org/ru/docs/Web/API/Node/hasChildNodes),
     [Node.contains](https://developer.mozilla.org/ru/docs/Web/API/Node/contains)
     * [Events - События](https://developer.mozilla.org/en-US/docs/Web/Events),
-    [Основы работы с событиями (кроме 8 части)](https://learn.javascript.ru/events-and-interfaces),
+    [Основы работы с событиями (кроме 8 части)](https://learn.javascript.ru/events-and-interfaces)
+    * [JS keycodes](https://css-tricks.com/snippets/javascript/javascript-keycodes/),
+    [Live Demo of Keycodes](http://keycode.info/)
 
 
