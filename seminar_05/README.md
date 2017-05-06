@@ -16,6 +16,10 @@ _Объекты. This. Call. Apply. Bind. ООП. Наследование и п
     [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date),
     [RegExp](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
     * [Методы массивов: filter, forEach, join, indexOf, keys, map, pop, push, reverse, slice, reverse, slice, splice, values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-    * [gulp For Beginners](https://css-tricks.com/gulp-for-beginners/),
-    [gulp getting-started](https://markgoodyear.com/2014/01/getting-started-with-gulp/),
-    [gulp getting-started](https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js),
+    * [Введение в gulp](http://getinstance.info/articles/tools/introduction-to-gulp/),
+    [gulp For Beginners](https://css-tricks.com/gulp-for-beginners/),
+    [package.json](https://docs.npmjs.com/files/package.json),
+    [gulp](https://www.npmjs.com/package/gulp),
+    [gulp-sass](https://www.npmjs.com/package/gulp-sass),
+    [gulp-uglify](https://www.npmjs.com/package/gulp-uglify),
+    [Example](https://github.com/LisKorzun/gulp---base-structure),
