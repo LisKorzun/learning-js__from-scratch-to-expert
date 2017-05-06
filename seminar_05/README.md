@@ -1,4 +1,4 @@
-#  Объекты. This. Call. Apply. Bind. Наследование. Прототипы. Конструкторы.
+#  Gulp. Объекты. This. Call. Apply. Bind. Наследование. Прототипы. Конструкторы.
 `6 мая 2017` | `8.30 - 11.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
 
 _Объекты. This. Call. Apply. Bind. ООП. Наследование и прототипы. Конструкторы и классы. Аксессоры и атрибуты свойств. Описание собственных классов - реализация приватных свойств и методов, реализация наследования_
@@ -12,3 +12,10 @@ _Объекты. This. Call. Apply. Bind. ООП. Наследование и п
     * [Наследование и цепочка прототипов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
     * [Classes](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes)
     * [ООП в прототипном стиле](https://learn.javascript.ru/prototypes)
+    * [Math](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math),
+    [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date),
+    [RegExp](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+    * [Методы массивов: filter, forEach, join, indexOf, keys, map, pop, push, reverse, slice, reverse, slice, splice, values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+    * [gulp For Beginners](https://css-tricks.com/gulp-for-beginners/),
+    [gulp getting-started](https://markgoodyear.com/2014/01/getting-started-with-gulp/),
+    [gulp getting-started](https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js),
