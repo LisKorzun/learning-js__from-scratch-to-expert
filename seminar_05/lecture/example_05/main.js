@@ -16,19 +16,18 @@ var firstUser = new User('Lisa', 'test@test.by', 'female');
 firstUser.logOut();
 
 firstUser instanceof User
-// true
+true
 
-// function AdminUser (name, email, gender, department) {
-//     User.apply(this, arguments);
-//     this.isAdmin = true;
-//     this.department = department;
-//     return this;
-// };
-//
-// AdminUser.prototype = Object.create(User.prototype);
-// AdminUser.prototype.constructor = AdminUser;
-//
-// var admin = new AdminUser('Alex', 'admin@test.by', 'male', 'sales');
-//
-// admin instanceof User // true
-// admin instanceof AdminUser  // true
+function AdminUser (name, email, gender, department) {
+    User.apply(this, arguments);
+    this.isAdmin = true;
+    this.department = department;
+};
+
+AdminUser.prototype = Object.create(User.prototype);
+AdminUser.prototype.constructor = AdminUser;
+
+var admin = new AdminUser('Alex', 'admin@test.by', 'male', 'sales');
+
+admin instanceof User // true
+admin instanceof AdminUser  // true
