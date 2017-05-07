@@ -7,7 +7,7 @@ _Объекты. This. Call. Apply. Bind. ООП. Наследование и п
 * [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_05/lecture/presentation/JS11_1_Questions.pdf)
 
 ### Работа с DOM. События. Объект события
-* [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_05/lecture/presentation/JS12_OOP_sh.pdf)
+* [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_05/lecture/presentation/JS12_OOP_%20sh.pdf)
 * Дополнительно:
     * [Наследование и цепочка прототипов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
     * [Classes](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes)
