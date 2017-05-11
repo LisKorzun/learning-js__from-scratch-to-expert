@@ -15,8 +15,7 @@ User.prototype.logOut = function () {
 var firstUser = new User('Lisa', 'test@test.by', 'female');
 firstUser.logOut();
 
-firstUser instanceof User
-true
+console.log(firstUser instanceof User);
 
 function AdminUser (name, email, gender, department) {
     User.apply(this, arguments);
@@ -29,5 +28,5 @@ AdminUser.prototype.constructor = AdminUser;
 
 var admin = new AdminUser('Alex', 'admin@test.by', 'male', 'sales');
 
-admin instanceof User // true
-admin instanceof AdminUser  // true
+console.log(admin instanceof User);
+console.log(admin instanceof AdminUser);
