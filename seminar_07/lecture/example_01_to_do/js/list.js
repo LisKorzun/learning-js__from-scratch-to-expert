@@ -11,12 +11,6 @@ List.prototype.setupEvents = function () {
     this.el.addEventListener('addTask', this.addTaskHandler.bind(this));
 };
 
-List.prototype.hideModal = function () {
-    var modal = this.el.querySelector('.modal');
-    modal.classList.remove('is-active');
-    modal.querySelector('textarea').value = '';
-};
-
 List.prototype.clickHandler = function (e) {
     var targetClasses = e.target.className.split(' ');
     if (targetClasses.indexOf('show-modal') !== -1) {
