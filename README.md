@@ -8,6 +8,7 @@
 1. [Семинар 04](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_04): **Выполнение JS в браузере. События: перехват, всплытие, делегирование**
 1. [Семинар 05](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_05): **Объекты. This. Call. Apply. Bind. Наследование. Прототипы. Конструкторы**
 1. [Семинар 06](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_06): **Таймеры. JSON. Исключения. Web-Storage. Cookie.**
+1. [Семинар 07](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_07): **Генерация событий. Пользовательские события.**
 
 ## Полезности
 
