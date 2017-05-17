@@ -1,6 +1,5 @@
 function Modal(selector) {
     this.el = document.querySelector(selector);
-    return this;
 }
 
 Modal.prototype.setupEvents = function () {

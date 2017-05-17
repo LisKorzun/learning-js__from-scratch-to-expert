@@ -1,7 +1,4 @@
 function List(selector) {
-    if (!selector) {
-        return;
-    }
     this.el = document.querySelector(selector);
     this.helper = new Modal('.modal.add-task').setupEvents();
     this.tasks = [];
