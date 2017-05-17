@@ -1,0 +1,22 @@
+.main-menu {
+    min-height: 160px;
+    margin-bottom: 50px;
+}
+
+.main-menu .nav-item img {
+    max-height: 160px;
+}
+
+.error-message {
+    opacity:0;
+    transition: all 500ms ease;
+}
+
+.error-message.show {
+    opacity:1;
+}
+
+.next:hover,
+.prev:hover {
+    cursor: pointer;
+}
