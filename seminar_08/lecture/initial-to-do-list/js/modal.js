@@ -5,28 +5,24 @@
  */
 function Modal(selector) {
     this.el = document.querySelector(selector);
-    
-    this.setupEvents();
-}
 
-/**
- * Set event listeners
- */
-Modal.prototype.setupEvents = function () {
-    this.el.addEventListener('click', this.clickHandler.bind(this));
-};
-
-/**
- * Click handler on Modal container
- * @param {Event} e
- */
-Modal.prototype.clickHandler = function (e) {
-    var targetClasses = e.target.className.split(' ');
-    if (targetClasses.indexOf('delete') !== -1 ||
-        targetClasses.indexOf('cancel') !== -1) {
-        this.hide();
+    if(this.el){
+        this.el.addEventListener('click', clickHandler.bind(this));
     }
-};
+
+    /**
+     * Click handler on Modal container
+     * @param {Event} e
+     */
+    function clickHandler (e) {
+        var targetClasses = e.target.className.split(' ');
+        if (targetClasses.indexOf('delete') !== -1 ||
+            targetClasses.indexOf('cancel') !== -1) {
+            this.hide();
+        }
+    };
+
+}
 
 /**
  * Show modal window
