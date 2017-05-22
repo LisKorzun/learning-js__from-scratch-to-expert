@@ -10,6 +10,7 @@
 1. [Семинар 06](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_06): **Таймеры. JSON. Исключения. Web-Storage. Cookie.**
 1. [Семинар 07](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_07): **Генерация событий. Пользовательские события.**
 1. [Семинар 08](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_08): **Рефакторим календарь. Продолжаем - To Do List.**
+1. [Семинар 09](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_09): **HTTP. AJAX. XMLHttpRequest. Асинхронное программирование.**
 
 ## Полезности
 
@@ -26,6 +27,11 @@
 ### Утилиты
 :white_medium_small_square: [Git](https://git-scm.com/downloads)
 :white_medium_small_square: [JSDoc](http://usejsdoc.org/)
+:white_medium_small_square: [Gulp](http://gulpjs.com//)
+
+### Chrome Extensions
+:white_medium_small_square: [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
+:white_medium_small_square: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
 ### Базы знаний
 :white_medium_small_square: [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide)
