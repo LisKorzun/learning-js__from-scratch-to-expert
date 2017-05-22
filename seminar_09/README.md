@@ -1,6 +1,7 @@
 #  HTTP. AJAX. XMLHttpRequest. Асинхронное программирование
 `23 мая 2017` | `08.30 - 11.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
 
+* [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_09/lecture/presentation/JS15_AJAX.pdf)
 * Дополнительно:
     * [HTTP](https://ru.wikipedia.org/wiki/HTTP)
     * [Основы HTTP](http://ruseller.com/lessons.php?rub=28&id=1726)
