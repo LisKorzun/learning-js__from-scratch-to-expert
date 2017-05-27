@@ -1,0 +1,16 @@
+{
+  "name": "xml-http-request-example",
+  "version": "1.0.0",
+  "description": "How to make XMLHttpRequest in JavaScript?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
