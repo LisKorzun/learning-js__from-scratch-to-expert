@@ -11,6 +11,7 @@
 1. [Семинар 07](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_07): **Генерация событий. Пользовательские события.**
 1. [Семинар 08](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_08): **Рефакторим календарь. Продолжаем - To Do List.**
 1. [Семинар 09](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_09): **HTTP. AJAX. XMLHttpRequest. Асинхронное программирование.**
+1. [Семинар 10](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_10): **API. Cross-domain requests. CORS**
 
 ## Полезности
 
