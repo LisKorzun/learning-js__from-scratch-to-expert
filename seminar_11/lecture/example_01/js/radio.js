@@ -8,11 +8,8 @@
     };
 
     /**
-     * Radio prototype
-     * @type {{
-     *  subscribe: Radio.subscribe,
-     *  publish: Radio.publish
-     * }}
+     * 
+     * @type {{on: Radio.on, trigger: Radio.trigger}}
      */
     Radio.prototype = {
         on: function (topic, listener) {
