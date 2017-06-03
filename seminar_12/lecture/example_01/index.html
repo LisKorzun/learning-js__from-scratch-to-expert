@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tasks - JS MVC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="section">
+    <div class="js-container container">
+        <div class="field is-grouped">
+            <p class="control is-expanded">
+                <input type="text" class="task-text-box input">
+            </p>
+            <p class="control">
+                <a type="button" class="add-task button is-info">Add Task</a>
+            </p>
+        </div>
+        <div class="box">
+            <label>Tasks:</label>
+            <div class="tasks-container"></div>
+        </div>
+        <div class="block">
+            <a type="button" class="complete-task button is-primary">Complete Task</a>
+            <a type="button" class="delete-task button is-danger">Delete Task</a>
+        </div>
+    </div>
+</section>
+
+<script data-main="js/init.js" src="js/require.js"></script>
+
+</body>
+</html>
