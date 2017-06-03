@@ -1,4 +1,4 @@
-# JavaScript модули. Форматы. Загрузчики. RequireJS. Шаблонизаторы.
+# JavaScript модули. Форматы. Загрузчики. RequireJS.
 `03 июня 2017` | `12.30 - 15.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
 
 * [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_12/lecture/presentation/JS18_Modules.pdf)
