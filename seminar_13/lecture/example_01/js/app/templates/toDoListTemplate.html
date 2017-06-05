@@ -1,0 +1,20 @@
+<div class="field is-grouped">
+    <p class="control is-expanded">
+        <input type="text" class="task-text-box input">
+    </p>
+    <p class="control">
+        <a type="button" class="add-task button is-info">Add Task</a>
+    </p>
+</div>
+<div class="box">
+    <label>Tasks:</label>
+    <div class="tasks-container">
+        <% tasks.map(function(task, ind){ %>
+        <%= task.getRenderedTask(ind)%>
+        <% }); %>
+    </div>
+</div>
+<div class="block">
+    <a type="button" class="complete-task button is-primary">Complete Task</a>
+    <a type="button" class="delete-task button is-danger">Delete Task</a>
+</div>

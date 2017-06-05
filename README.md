@@ -12,6 +12,9 @@
 1. [Семинар 08](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_08): **Рефакторим календарь. Продолжаем - To Do List.**
 1. [Семинар 09](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_09): **HTTP. AJAX. XMLHttpRequest. Асинхронное программирование.**
 1. [Семинар 10](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_10): **API. Cross-domain requests. CORS**
+1. [Семинар 11](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_11): **Шаблоны проектирования. MVC. Publisher-Subscriber.**
+1. [Семинар 12](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_12): **JavaScript модули. Форматы. Загрузчики. RequireJS.**
+1. [Семинар 13](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_13): **Шаблонизаторы. Underscore**
 
 ## Полезности
 
@@ -29,6 +32,10 @@
 :white_medium_small_square: [Git](https://git-scm.com/downloads)
 :white_medium_small_square: [JSDoc](http://usejsdoc.org/)
 :white_medium_small_square: [Gulp](http://gulpjs.com//)
+
+### Libs
+:white_medium_small_square: [RequireJS](http://requirejs.org/)
+:white_medium_small_square: [Underscore](http://underscorejs.org/)
 
 ### Chrome Extensions
 :white_medium_small_square: [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
