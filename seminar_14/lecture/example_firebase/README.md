@@ -1,15 +1,20 @@
 #Firebase project
 [Firebase Documentation](https://firebase.google.com/docs/)
 
-:one: [Firebase](https://firebase.google.com/) -> Get Started -> Добавить проект -> Добавьте Firebase в свое веб-приложение (инициализация Firebase)
+:one: [Firebase](https://firebase.google.com/) -> Get Started -> Добавить проект -> Добавьте Firebase в свое веб-приложение
 
 Cоздаем скелет проекта и инициализируем Firebase
 
 Возможна инициализация и настройка отдельных Firebase JavaScript SDK:
+
 `firebase-app` - The core firebase client (**required**).
+
 `firebase-auth` - Firebase Authentication (optional).
+
 `irebase-database` - The Firebase Realtime Database (optional).
+
 `firebase-storage` - Cloud Storage (optional).
+
 `firebase-messaging` - Firebase Cloud Messaging (optional).
 
 Подключение отдельных компонентов:
