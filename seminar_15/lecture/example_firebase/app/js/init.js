@@ -15,11 +15,12 @@ requirejs.config({
     },
     config: {
         fb: {
-            apiKey: '<API_KEY>',
-            authDomain: '<PROJECT_ID>.firebaseapp.com',
-            databaseURL: 'https://<DATABASE_NAME>.firebaseio.com',
-            storageBucket: '<BUCKET>.appspot.com',
-            messagingSenderId: '<SENDER_ID>',
+            apiKey: "AIzaSyADLvEowr9kCjRreklB3QVk3nVM5qWRhyU",
+            authDomain: "to-do-f3bae.firebaseapp.com",
+            databaseURL: "https://to-do-f3bae.firebaseio.com",
+            projectId: "to-do-f3bae",
+            storageBucket: "to-do-f3bae.appspot.com",
+            messagingSenderId: "85961373892"
         }
     }
 });

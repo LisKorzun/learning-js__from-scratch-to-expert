@@ -1,11 +1,9 @@
-define(['fb', 'radio', 'controllers/menuController', 'controllers/ToDoListController'],
-    function (fb, radio, menu, toDoList) {
+define(['fb', 'radio', 'controllers/menuController'],
+    function (fb, radio, menu) {
         return {
             init: function () {
-                fb.init();
-                
+                fb.init();                
                 menu.init();
-                toDoList.initialize();
             }
         };
     });

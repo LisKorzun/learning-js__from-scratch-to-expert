@@ -1,8 +1,8 @@
 # Задание 15
 ## ТЕОРИЯ
 
-:one: Изучаем дополнительные ссылки к лекцииям данного [семинара](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_15/README.md).
+:one: разбираемся с authentication: [authentication](https://firebase.google.com/docs/auth/web/start), [firebase.auth - reference](https://firebase.google.com/docs/reference/js/firebase.auth)
 
 ## ПРАКТИКУМ:
 
-* В созданный проект на базе Firebase добавляем в область главного контента календарь/to-do list. Реализуем сохранение пользовательских мероприятий в облачной базе данных.
+* Доделываем задание семинара 14
