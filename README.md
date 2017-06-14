@@ -15,6 +15,9 @@
 1. [Семинар 11](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_11): **Шаблоны проектирования. MVC. Publisher-Subscriber.**
 1. [Семинар 12](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_12): **JavaScript модули. Форматы. Загрузчики. RequireJS.**
 1. [Семинар 13](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_13): **Шаблонизаторы. Underscore**
+1. [Семинар 14](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_14): **Firebase. Authentication**
+1. [Семинар 15](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_15): **Firebase - Authentication. Практическое занятие**
+1. [Семинар 16](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_16): **The Firebase Realtime Database**
 
 ## Полезности
 
@@ -33,9 +36,10 @@
 :white_medium_small_square: [JSDoc](http://usejsdoc.org/)
 :white_medium_small_square: [Gulp](http://gulpjs.com//)
 
-### Libs
+### Libs, Frameworks, etc.
 :white_medium_small_square: [RequireJS](http://requirejs.org/)
 :white_medium_small_square: [Underscore](http://underscorejs.org/)
+:white_medium_small_square: [Firebase](https://firebase.google.com/)
 
 ### Chrome Extensions
 :white_medium_small_square: [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
