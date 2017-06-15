@@ -1,5 +1,5 @@
 # Project skeleton ([demo](https://to-do-f3bae.firebaseapp.com/))
-####with RequireJS, Underscore, Firebase, Gulp 
+#### with RequireJS, Underscore, Firebase, Gulp 
 
 ## How to build project (production and development version) in one step
 
@@ -19,7 +19,7 @@ gulp dev:build       # development version
 
 :exclamation: Please, update config for your Firebase project in `app/js/init.js` file
 
-:grey_exclamation: Be sure that you installed Gulp and Firebase globally:
+:grey_exclamation: Be sure that you have installed Gulp and Firebase globally:
 
 ```
 npm install -g gulp 
