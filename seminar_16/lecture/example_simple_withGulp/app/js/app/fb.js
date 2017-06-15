@@ -3,7 +3,7 @@ define(['module', 'firebase', 'radio'],
         return {
             init: function () {
                 firebase.initializeApp(module.config());
-                this.isAuthenticated = firebase.auth().currentUser || false;
+                this.authenticated = firebase.auth().currentUser || null;
             },
 
             setupEvents: function () {
@@ -11,12 +11,12 @@ define(['module', 'firebase', 'radio'],
             },
 
             setCurrentUser: function (value) {
-                this.isAuthenticated = value;
+                this.authenticated = value;
                 radio.trigger('auth/changed', value);
             },
 
             getCurrentUser: function () {
-                return this.isAuthenticated;
+                return this.authenticated;
             },
 
             signInGoogle: function () {
@@ -38,7 +38,7 @@ define(['module', 'firebase', 'radio'],
                 firebase.auth().signOut()
                     .then(function () {
                         console.log('Successfully sign out!');
-                        this.setCurrentUser(false);
+                        this.setCurrentUser(null);
                     }.bind(this))
                     .catch(function (error) {
                         console.error(error.message);
