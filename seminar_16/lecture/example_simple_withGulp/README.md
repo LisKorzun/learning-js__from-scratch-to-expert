@@ -1,6 +1,7 @@
-# Project skeleton with RequireJS, Underscore, Firebase, Gulp ([go here](https://to-do-f3bae.firebaseapp.com/))
+# Project skeleton ([demo](https://to-do-f3bae.firebaseapp.com/))
+####with RequireJS, Underscore, Firebase, Gulp 
 
-### How to build project (production and development version) in one step
+## How to build project (production and development version) in one step
 
 ```
 gulp prod:build      # production version
@@ -8,7 +9,7 @@ gulp prod:build      # production version
 gulp dev:build       # development version
 ```
 
-### Details
+## Details
 
 :one: Clone this repository: `git clone [this repository]`
 
