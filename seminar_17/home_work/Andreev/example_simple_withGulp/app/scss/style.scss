@@ -1,0 +1,51 @@
+/* BULMA - Customising.
+========================================================================== */
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+$family-serif: "Verdana", "Tahoma", san-serif;
+
+$primary: #00CECE;
+$primary-invert: #fff;
+$family-primary: $family-serif;
+
+@import "../../node_modules/bulma/bulma";
+
+/* FONT-AWESOME
+========================================================================== */
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+/* Module styles
+========================================================================== */
+@import "partials/base";
+
+html, body, .main-container {
+  height: 100%;
+}
+
+.image-preview {
+  padding: 5px;
+}
+
+.image-preview .delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.image-preview .icon {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.to-do-panel {
+  background-color: white;
+}
+
+.settings-manager-container {
+  display: none;
+}
+
+.settings-manager-container.visible {
+  display: block;
+}
