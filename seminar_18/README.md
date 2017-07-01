@@ -1,7 +1,7 @@
 # Promises. Routing. Single Page Application. CDN
 `24 июня 2017` | `12.30 - 15.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
 
-* [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_17/lecture/presentation/JS23_Firebase_Storage.pdf)
+* [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_18/lecture/presentation/JS24_Promise_Rout_SPA.pdf)
 * Дополнительно:
     * [Promise (ru)](https://learn.javascript.ru/promise)
     * [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise)
