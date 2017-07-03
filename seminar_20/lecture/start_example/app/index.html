@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery/jQuery UI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="nav menu has-shadow"></nav>
+<section class="hero is-primary is-medium task-1-section">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Task #1
+            </h1>
+            <div class="subtitle content ">
+                <ul>
+                    <li>Создать js-module task1</li>
+                    <li>При клике по секции Task 1 - кнопка first должна менять рандомно свой бэкграунд</li>
+                    <li>Кнопка first должна быть драггабл только внитри секции Task 1 и возвращаться на место</li>
+                    <li>При клике по кнопкам - first не должна реагировать</li>
+                    <li>При клике по second - секция должна рандомно менять класс, отвечающий за цвет</li>
+                    <li>При клике по third - должен отправиться ajax за data/simpleAjax.json, при успешном запросе
+                        вывести алерт со значением какого-либо свойства из файла
+                    </li>
+                    <li>При клике по fourth - должен отправиться ajax за data/bad.json (файла не должно быть), должна
+                        быть обработана ошибка запроса, вывести алерт с урлом, статус-кодом и статус-текстом запроса
+                    </li>
+                </ul>
+            </div>
+            <a id="draggable" class="button is-primary is-inverted is-outlined first">first</a>
+            <a class="button is-info is-inverted is-outlined second">second</a>
+            <a class="button is-success is-inverted is-outlined third">third</a>
+            <a class="button is-danger is-inverted is-outlined fourth">fourth</a>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-dark is-medium task-2">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Task #2
+            </h1>
+            <div class="subtitle content ">
+                <ul>
+                    <li>В меню модуле обработать клик по Humburger для мобильного и таблетного видов (открытие и
+                        закрытие меню)
+                    </li>
+                    <li>Подключить роутер, при кликах по пунтам меню должны отображаться соответсвующие секции (all -
+                        все секции, Task #1 - секция с задачей №1 и тд)
+                    </li>
+                    <li>В мобильном и таблетном вью, должна закрываться менюшка, при выборе пункта меню</li>
+                    <li>При скроллинге меню должно цепляться за верх окна, и быть на виду у пользователя</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-warning is-medium task-3">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Task #3
+            </h1>
+            <div class="subtitle content ">
+                <ul>
+                    <li>Создать модуль task3 и data/grid.json файл (в нем должен быть массив из 30 объектов)</li>
+                    <li>При инициализации task3 должен загружать файл, парсить его и отображать в виде тайлов эти
+                        тридцать объектов
+                    </li>
+                    <li>Когда пользоваель доскроллит до последних тайлов, task3 должен загрузить заново файл и отрисовать тайлы</li>
+                    <li>И так 5 раз, после пятой подгрузки, загрузка должна прекратиться</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script data-main="js/build.js" src="js/lib/require.js"></script>
+
+</body>
+</html>

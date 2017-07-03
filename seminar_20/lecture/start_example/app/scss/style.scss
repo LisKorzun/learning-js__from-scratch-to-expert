@@ -1,0 +1,19 @@
+/* BULMA - Customising.
+========================================================================== */
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+$family-serif: "Verdana", "Tahoma", san-serif;
+
+$primary: #00CECE;
+$primary-invert: #fff;
+$family-primary: $family-serif;
+
+@import "../../node_modules/bulma/bulma";
+
+/* FONT-AWESOME
+========================================================================== */
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+/* Module styles
+========================================================================== */
+@import "partials/base";
