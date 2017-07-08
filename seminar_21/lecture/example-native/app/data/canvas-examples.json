@@ -1,0 +1,278 @@
+{
+  "title": "CANVAS",
+  "subtitle": "Элемент &lt;canvas&gt;, добавленный в HTML5, предназначен для создания графики с помощью JavaScript.<br>Например, его используют для рисования графиков, создания фотокомпозиций, анимаций и даже обработкии рендеринга видео в реальном времени.",
+  "heroMenuItems": [
+    {
+      "name": "Примеры",
+      "target": "canvas-examples"
+    },
+    {
+      "name": "Методы",
+      "target": "canvas-methods"
+    }
+  ],
+  "moduleContent": [
+    {
+      "id": "canvas-examples",
+      "type": "right-menu",
+      "tabs": [
+        {
+          "name": "Фигуры",
+          "target": "figures-content-menu"
+        },
+        {
+          "name": "Стили и цвета",
+          "target": "style-content-menu"
+        },
+        {
+          "name": "Изображения",
+          "target": "img-content-menu"
+        },
+        {
+          "name": "Трансформации",
+          "target": "trans-content-menu"
+        }
+      ],
+      "menu": [
+        {
+          "id": "figures-content-menu",
+          "menuList": [
+            {
+              "name": "Два прямоугольника",
+              "target": "bvn5Luvd"
+            },
+            {
+              "name": "Прямоугольники внутри",
+              "target": "anxseg6r"
+            },
+            {
+              "name": "Триугольник",
+              "target": "cqtczvnm"
+            },
+            {
+              "name": "Смайл",
+              "target": "L1knwahp"
+            },
+            {
+              "name": "Линии",
+              "target": "55y4z7vf"
+            },
+            {
+              "name": "Дуги",
+              "target": "b1bsfh82"
+            },
+            {
+              "name": "Квадратичные кривые",
+              "target": "e2La1vrr"
+            },
+            {
+              "name": "Кривые Безье",
+              "target": "2wnnh9aq"
+            },
+            {
+              "name": "Path2D объекты",
+              "target": "odjm5rk3"
+            }
+          ]
+        },
+        {
+          "id": "style-content-menu",
+          "menuList": [
+            {
+              "name": "Фон",
+              "target": "pba4pgx5"
+            },
+            {
+              "name": "Контур",
+              "target": "9yyh9n5h"
+            },
+            {
+              "name": "Прозрачность",
+              "target": "2731Lecm"
+            },
+            {
+              "name": "Использование rgba",
+              "target": "uag3zLkL"
+            },
+            {
+              "name": "Толщина линий",
+              "target": "9vbgya01"
+            },
+            {
+              "name": "Ломаные линии",
+              "target": "ggwadkp6"
+            },
+            {
+              "name": "Базовая аниация",
+              "target": "uopxg0tq"
+            },
+            {
+              "name": "Линейный градиент",
+              "target": "xeyc6b4t"
+            },
+            {
+              "name": "Круговой градиент",
+              "target": "9dacr9pu"
+            },
+            {
+              "name": "Паттерн картинки",
+              "target": "hodeLmjk"
+            }
+          ]
+        },
+        {
+          "id": "img-content-menu",
+          "menuList": [
+            {
+              "name": "Тайлинг изображения",
+              "target": "caoykp1u"
+            },
+            {
+              "name": "Обрамление изображения",
+              "target": "kc2Ls37f"
+            }
+          ]
+        },
+        {
+          "id": "trans-content-menu",
+          "menuList": [
+            {
+              "name": "Сохранение состояния",
+              "target": "qwx19md8"
+            },
+            {
+              "name": "Использование translate()",
+              "target": "coprybsb"
+            },
+            {
+              "name": "Ротация",
+              "target": "jy0z7cdc"
+            }
+          ]
+        }
+      ],
+      "menuContent": [
+        {
+          "id": "bvn5Luvd",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "anxseg6r",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "cqtczvnm",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "L1knwahp",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "55y4z7vf",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "b1bsfh82",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "e2La1vrr",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "2wnnh9aq",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "odjm5rk3",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "pba4pgx5",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "9yyh9n5h",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "2731Lecm",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "uag3zLkL",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "9vbgya01",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "ggwadkp6",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "uopxg0tq",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "xeyc6b4t",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "9dacr9pu",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "hodeLmjk",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "caoykp1u",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "kc2Ls37f",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "qwx19md8",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "coprybsb",
+          "type": "fiddle",
+          "options": "result,js,html"
+        },
+        {
+          "id": "jy0z7cdc",
+          "type": "fiddle",
+          "options": "result,js,html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<section class="hero is-primary is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                <%= title%>
+            </h1>
+            <h2 class="subtitle">
+                <%= subtitle%>
+            </h2>
+        </div>
+    </div>
+    <% if (heroMenuItems.length){ %>
+    <div class="hero-foot">
+        <nav class="tabs is-boxed">
+            <div class="container">
+                <ul>
+                    <% heroMenuItems.map(function (item){ %>
+                    <li class="hero-menu-item" data-target="<%= item.target %>">
+                        <a><%= item.name %></a>
+                    </li>
+                    <% }) %>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <% }%>
+</section>
+<% if (moduleContent.length){ %>
+<% moduleContent.map(function (item){ %>
+<div class="container module-item" id="<%= item.id %>">
+    <% if (item.tabs.length){ %>
+    <nav class="navbar is-transparent">
+        <div class="tabs is-centered is-fullwidth is-boxed is-small">
+            <ul>
+                <% item.tabs.map(function (tabItem){ %>
+                <li class="module-tab-item" data-target="<%= tabItem.target %>">
+                    <a> <%= tabItem.name %> </a>
+                </li>
+                <%})%>
+            </ul>
+        </div>
+    </nav>
+    <% }%>
+    <% if (item.menu.length){ %>
+    <div class="columns">
+        <% item.menu.map(function (menuItem){ %>
+        <div class="column is-one-third module-menu" id="<%= menuItem.id %>">
+            <aside class="menu">
+                <p class="menu-label">
+                    <% if (menuItem.label) print(menuItem.label) %>
+                </p>
+                <ul class="menu-list">
+                    <% menuItem.menuList.map(function(menuListItem){ %>
+                    <li><a class="module-menu-item" data-target="<%= menuListItem.target %>"><%= menuListItem.name
+                        %></a></li>
+                    <%})%>
+                </ul>
+            </aside>
+        </div>
+        <%})%>
+        <% if (item.menuContent.length){ %>
+        <div class="section column is-two-thirds">
+            <% item.menuContent.map(function(menuContentItem){ %>
+            <div id="<%= menuContentItem.id %>" class="example-fiddle module-content-item">
+                <!--<iframe width="100%" height="500" src="//jsfiddle.net/LisKorzun/<%= menuContentItem.id %>/embedded/<%= menuContentItem.options %>/?bodyColor=ffffff" allowfullscreen="allowfullscreen" frameborder="0"></iframe>-->
+                <script async
+                        src="//jsfiddle.net/LisKorzun/<%= menuContentItem.id %>/embed/<%= menuContentItem.options %>/?bodyColor=ffffff"></script>
+            </div>
+            <%})%>
+        </div>
+        <% }%>
+    </div>
+    <% }%>
+</div>
+<% }) %>
+<% }%>
+<section id="canvas-methods" class="section module-item">
+    <div class="container">Methods</div>
+</section>

@@ -1,0 +1,5 @@
+node_modules
+.idea
+app/fonts
+app/css
+app/js/build.js

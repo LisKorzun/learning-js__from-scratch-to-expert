@@ -1,0 +1,24 @@
+html,
+body,
+.main-content {
+  height: 100%;
+}
+
+.main-section-item,
+.module-item,
+.module-menu,
+.example-fiddle{
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.example-fiddle iframe {
+  border: 1px solid rgba(57, 70, 78, 0.2);
+}
+
+.main-section-item .navbar {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
