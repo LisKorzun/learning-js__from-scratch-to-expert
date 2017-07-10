@@ -18,6 +18,12 @@
 1. [Семинар 14](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_14): **Firebase. Authentication**
 1. [Семинар 15](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_15): **Firebase - Authentication. Практическое занятие**
 1. [Семинар 16](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_16): **The Firebase Realtime Database**
+1. [Семинар 17](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_17): **File API. Cloud Storage for Firebase**
+1. [Семинар 18](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_18): **Promises. Routing. Single Page Application. CDN**
+1. [Семинар 19](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_19): **jQuery. jQuery UI**
+1. [Семинар 20](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_20): **Практикум по jQuery. jQuery UI**
+1. [Семинар 21](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_21): **Vue.js. Введение в Сanvas**
+1. [Семинар 22](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_22): **ECMAScript 6 - обзор и сравнение**
 
 ## Полезности
 
