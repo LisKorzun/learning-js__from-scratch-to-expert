@@ -7,4 +7,5 @@
     * [ECMAScript 6 Tutorial](http://ccoenraets.github.io/es6-tutorial/)
     * [ES6 Tutorial](https://www.tutorialspoint.com/es6/es6_quick_guide.htm/)
     * [static in JS](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes/static)
+    * [demo for lesson](https://vuejs-c4656.firebaseapp.com/#/search-example)
 
