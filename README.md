@@ -25,6 +25,7 @@
 1. [Семинар 21](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_21): **Vue.js. Введение в Сanvas**
 1. [Семинар 22](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_22): **ECMAScript 6 - обзор и сравнение**
 1. [Семинар 23](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_23): **SVG. Практикум по Vue.js | SVG/Dynamic.js | Firebase**
+1. [Семинар 24](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/tree/master/seminar_24): **Тестирование кода. Mocha. Chai. Sinon**
 
 ## Полезности
 

@@ -1,5 +1,5 @@
 # SVG. Практикум по Vue.js | Axios | SVG/Dynamic.js | Firebase
-`15 июля 2017` | `12.30 - 11.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
+`15 июля 2017` | `12.30 - 15.20` | `ул. Скрыганова 14, эт. 5, ауд. 53/1`
 
 * [Презентация](https://github.com/LisKorzun/learning-js__from-scratch-to-expert/blob/master/seminar_22/lecture/presentation/JS26_ES6.pdf)
 * Дополнительно:
