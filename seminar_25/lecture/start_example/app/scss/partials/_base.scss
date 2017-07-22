@@ -1,0 +1,54 @@
+html,
+body,
+.main-content {
+  height: 100%;
+}
+
+.to-do-list {
+  .panel {
+    background: $white;
+  }
+
+  .task {
+    justify-content: space-between;
+    &.completed {
+      background: $white-ter;
+      div {
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .completed-tags {
+    justify-content: space-between;
+  }
+}
+
+.user-settings {
+  .user-settings-content {
+    opacity: 0;
+    transition: opacity 500ms ease-out;
+    .user-image-background {
+      padding: 5px;
+      img {
+        height: 100%;
+      }
+      .delete {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+      .icon {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+      }
+    }
+  }
+  &.active {
+    .user-settings-content {
+      opacity: 1;
+    }
+  }
+
+}

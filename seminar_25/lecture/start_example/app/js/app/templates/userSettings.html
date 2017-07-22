@@ -1,0 +1,26 @@
+<% if (user) {%>
+<div class="columns">
+    <div class="column is-three-quarters user-settings-content ">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <input type="file" id="input-files" multiple accept="image/jpeg,image/png">
+            </div>
+            <div class="column is-three-quarter">
+                <% for (var id in images) {
+                if (images.hasOwnProperty(id)) {%>
+                <figure class="image is-96x96 is-pulled-left user-image-background" data-id="<%= id %>" data-path="<%= images[id].fullPath %>">
+                    <img src="<%= images[id].downloadURL %>">
+                    <span class="icon">
+                        <i class="fa fa-check-circle set-background"></i>
+                    </span>
+                    <a class="delete is-small"></a>
+                </figure>
+                <%}} %>
+            </div>
+        </div>
+    </div>
+    <div class="column is-one-quarter has-text-right">
+        <a class="button is-outlined show-hide-button">Show settings</a>
+    </div>
+</div>
+<% } %>

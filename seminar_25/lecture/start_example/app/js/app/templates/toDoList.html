@@ -1,0 +1,43 @@
+<div class="columns">
+    <div class="column is-8 is-offset-2">
+        <% if (user) {%>
+        <nav class="panel">
+            <p class="panel-heading">
+                Your To-Do List
+            </p>
+            <div class="panel-block">
+                <p class="control has-icons-left">
+                    <input class="input is-small add-task" type="text"
+                           placeholder="Please press 'Enter' to add new task">
+                    <span class="icon is-small is-left">
+                        <i class="fa fa-tasks"></i>
+                    </span>
+                </p>
+            </div>
+            <p class="panel-tabs">
+                <a class="all-tag">All</a>
+                <a class="completed-tag">Completed</a>
+                <a class="uncompleted-tag">Uncompleted</a>
+            </p>
+            <% for (var id in tasks){
+            if (tasks.hasOwnProperty(id)) {%>
+            <label class="panel-block task <% if (tasks[id].completed) print(' completed ') %>" data-id="<%= id %>">
+                <div>
+                    <input type="checkbox" class="task-checkbox" <% if (tasks[id].completed) print('checked') %>>
+                    <%= tasks[id].message %>
+                </div>
+                <button class="delete is-small is-right"></button>
+            </label>
+            <% }} %>
+            <div class="panel-block completed-tags">
+                <span class="tag is-primary">Completed: <%= completed %></span>
+                <span class="tag">Uncompleted: <%= uncompleted %></span>
+            </div>
+        </nav>
+        <% } else { %>
+        <figure class="image">
+            <img src="img/login.png">
+        </figure>
+        <% } %>
+    </div>
+</div>
